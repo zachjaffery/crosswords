@@ -1,9 +1,6 @@
 <script lang="ts">
-	import { onDestroy } from "svelte";
-
-	import { mode } from "../../stores";
-
-	import { DELAY_INCREMENT, ROWS } from "../../utils";
+	DELAY_INCREMENT = 1
+	ROWS = 2
 
 	export let value = "";
 	export let state: LetterState;
